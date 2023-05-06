@@ -28,7 +28,7 @@ The Computer class represents a computer player. It implements the IPlayer inter
 The IPlayer interface defines the methods and properties that a player in the game should implement.
 
 ### Sample Code
-`Game game = new Game(new Human("player1"), new Human("player2"));
+Game game = new Game(new Human("player1"), new Human("player2"));
 
 // Start playing the game
 PlayAndShowRezult(game);
@@ -39,6 +39,6 @@ public static void PlayAndShowRezult(Game game)
     IPlayer loser = game.GetLoser();
 
     Console.WriteLine($"{loser.Name} lost.");
-}`
+}
 ### Contributions
 Contributions are welcome! If you want to contribute to this project, please feel free to submit a pull request.
